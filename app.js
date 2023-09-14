@@ -4,15 +4,15 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const mongo = require("./db/connect");
 const uri = process.env.MONGO_URI;
-app.get("/", (req, res) => {
-  res.send("hello server is live");
-});
+// app.get("/", (req, res) => {
+//   res.send("hello server is live");
+// });
 
 const products = require("./routes/product");
 
-// middleware or set r
+// middleware or set 
 
-app.use("/api/products", products);
+app.use("/", products);
 
 const start = async () => {
   try {
