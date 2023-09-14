@@ -7,7 +7,6 @@ exports.getAllProducts = async(req,res) =>{
    const queryObject = {};
    if(company){
       queryObject.company = company;
-    
    }
 
    if (name) {
@@ -26,21 +25,18 @@ exports.getAllProducts = async(req,res) =>{
    }
 
    if(select){
-      // let selectFix = select.replace(",", " ");
       let selectFix = select.split(",").join(" ");
       apiData = apiData.select(selectFix);
    }
-
-
+// pagination
    let page = Number(req.query.page) || 1;
-
    let limit = Number(req.query.limit) || 10;
    
 /*
 page = 2
 limit = 3
 skip = (2-3) => 1 * 3  = 3 
-so it will skip the 3 above data and show after that
+so it will skip the first 3 data and show after that 
 */
    
    let skip = (page - 1)* limit;

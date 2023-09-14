@@ -27,9 +27,7 @@ const productSchema = new mongoose.Schema({
             values : ["apple" , "Apple", "samsung" , "mi" , "lenovo"],
             message: `{VALUE} is not supported`,  
         },
-    },
-    
+    },    
 })
-
 
 module.exports = mongoose.model('Product' , productSchema)
