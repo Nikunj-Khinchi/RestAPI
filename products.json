@@ -1,0 +1,782 @@
+[
+    {
+        "name": "Iphone",
+        "price": "154",
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 15",
+        "price": "2540",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 15 pro",
+        "price": "2640",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Mi notebook",
+        "price": "540",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Xiaomi 11i 5g",
+        "price": "5400",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Idea-Pad Gaming-3",
+        "price": "54000",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Legion",
+        "price": "74000",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Samsung notebook",
+        "price": "900",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung watch",
+        "price": "980",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Watch 4",
+        "price": "350",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Buds 2",
+        "price": "150",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Tab S7 FE",
+        "price": "400",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Book Go",
+        "price": "350",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Odyssey Neo G9",
+        "price": "2500",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung The Serif 4K Smart TV",
+        "price": "1200",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung HW-S60A Soundbar",
+        "price": "250",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Apple iPad Mini",
+        "price": "500",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Magic Trackpad",
+        "price": "100",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Smart Folio for iPad Pro",
+        "price": "80",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple USB-C to Lightning Cable",
+        "price": "30",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch Hermes",
+        "price": "1000",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch Nike+",
+        "price": "350",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple AirPods 3",
+        "price": "180",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Mi 11 Lite 5G",
+        "price": "450",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Electric Scooter Pro 2",
+        "price": "500",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi TV 6 Pro",
+        "price": "900",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Wireless Charging Stand",
+        "price": "25",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Portable Bluetooth Speaker 2",
+        "price": "30",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi LED Desk Lamp",
+        "price": "40",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi True Wireless Earbuds 3 Pro",
+        "price": "100",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "price": "1400",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo ThinkVision M14",
+        "price": "250",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Yoga Slim 7 Pro",
+        "price": "1200",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion 5 Pro",
+        "price": "1600",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Tab M10 FHD Plus",
+        "price": "200",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Display 10",
+        "price": "150",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Tab P10",
+        "price": "180",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion H300 Gaming Headset",
+        "price": "60",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Mi Smart Band 6",
+        "price": "50",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi True Wireless Earbuds",
+        "price": "70",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Yoga",
+        "price": "1600",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo ThinkBook 14",
+        "price": "800",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo IdeaPad 3",
+        "price": "600",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion Y540",
+        "price": "1200",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Tab P11",
+        "price": "300",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Clock",
+        "price": "80",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Tab M10",
+        "price": "250",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Samsung Galaxy A72",
+        "price": "600",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Watch Active 2",
+        "price": "250",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Buds Live",
+        "price": "170",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Fit 2 Pro",
+        "price": "100",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Book S",
+        "price": "950",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Odyssey G9",
+        "price": "1700",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung RU8000 4K Smart TV",
+        "price": "1000",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung HW-Q950T Soundbar",
+        "price": "800",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Apple Mac Mini",
+        "price": "700",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple HomePod Mini",
+        "price": "100",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Magic Keyboard",
+        "price": "150",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Pencil",
+        "price": "130",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple TV 4K",
+        "price": "180",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple AirTag",
+        "price": "30",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Leather Case for iPhone 13",
+        "price": "50",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple MagSafe Charger",
+        "price": "40",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Mi 11X Pro",
+        "price": "700",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Robot Vacuum",
+        "price": "250",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi TV Stick",
+        "price": "50",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Wireless Charging Pad",
+        "price": "30",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Portable Bluetooth Speaker",
+        "price": "40",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Smart Scale",
+        "price": "20",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "iphone 13",
+        "price": "1000",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iphone 13 pro",
+        "price": "1200",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Macbook Air",
+        "price": "1200",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Macbook Pro",
+        "price": "1800",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iMac",
+        "price": "1500",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iPad Air",
+        "price": "800",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "iPad Pro",
+        "price": "1000",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "AirPods",
+        "price": "200",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "AirPods Pro",
+        "price": "250",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch SE",
+        "price": "300",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch Series 7",
+        "price": "400",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Samsung Galaxy S21",
+        "price": "900",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy S21 Ultra",
+        "price": "1200",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Z Fold 3",
+        "price": "1800",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Tab S7",
+        "price": "700",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Buds Pro",
+        "price": "200",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Fit 2",
+        "price": "80",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Mi 11 Lite",
+        "price": "500",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi 11 Ultra",
+        "price": "900",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi TV 4A",
+        "price": "400",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Band 6",
+        "price": "50",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Power Bank 3",
+        "price": "30",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Lenovo ThinkPad L14",
+        "price": "900",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo ThinkVision P32u",
+        "price": "1000",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Yoga C930",
+        "price": "1200",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion Y740",
+        "price": "1500",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Tab M10 Plus",
+        "price": "300",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Display 7",
+        "price": "100",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Tab M8",
+        "price": "120",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Samsung Galaxy A32",
+        "price": "300",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Watch 3",
+        "price": "400",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Buds Live",
+        "price": "150",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Fit 2 Pro",
+        "price": "80",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Galaxy Book Flex",
+        "price": "1300",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung Odyssey G7",
+        "price": "800",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung RU7100 4K Smart TV",
+        "price": "700",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Samsung HW-Q800T Soundbar",
+        "price": "600",
+        "featured": true,
+        "company": "samsung"
+    },
+    {
+        "name": "Apple Mac Pro",
+        "price": "6000",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Thunderbolt Display",
+        "price": "900",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Magic Mouse",
+        "price": "80",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Smart Keyboard",
+        "price": "150",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple HomePod",
+        "price": "300",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch SE",
+        "price": "400",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple Watch Series 7",
+        "price": "500",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Apple AirPods Max",
+        "price": "550",
+        "featured": true,
+        "company": "apple"
+    },
+    {
+        "name": "Mi 11T",
+        "price": "700",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Robot Vacuum Mop Pro",
+        "price": "350",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi TV 5 Pro",
+        "price": "800",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Wireless Earphones 2",
+        "price": "100",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Portable Photo Printer",
+        "price": "50",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi Smart LED Bulb",
+        "price": "20",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Mi True Wireless Earphones 2S",
+        "price": "80",
+        "featured": true,
+        "company": "mi"
+    },
+    {
+        "name": "Lenovo ThinkPad T14",
+        "price": "1100",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo ThinkVision T27h",
+        "price": "350",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Yoga C740",
+        "price": "900",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion Y545",
+        "price": "1400",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Tab P11 Pro",
+        "price": "450",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Tab M10 HD",
+        "price": "150",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Smart Clock Essential",
+        "price": "50",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Lenovo Legion H500 Pro 7.1 Headset",
+        "price": "80",
+        "featured": true,
+        "company": "lenovo"
+    },
+    {
+        "name": "Samsung Galaxy A52s 5G",
+        "price": "600",
+        "featured": true,
+        "company": "samsung"
+    }
+
+]
