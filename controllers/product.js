@@ -1,54 +1,68 @@
 const products = require("../models/product");
 
-exports.getAllProducts = async(req,res) =>{
-   
-   const {company , name, featured ,sort , select} = req.query;
-
+exports.getAllProducts = async(req, res) => {
+   const { company, name, featured, sort, select, format } = req.query;
    const queryObject = {};
-   if(company){
+   if (company) {
       queryObject.company = company;
    }
-
    if (name) {
-      queryObject.name = {$regex: name , $options: "i" };
+      queryObject.name = { $regex: name, $options: "i" };
    }
-
-   if(featured){
+   if (featured) {
       queryObject.featured = featured;
    }
+   let apiData = products.find(queryObject);
 
-   let apiData  =  products.find(queryObject);
-
-   if(sort){
+   if (sort) {
       let sortFix = sort.split(",").join(" ");
       apiData = apiData.sort(sortFix);
    }
 
-   if(select){
-      let selectFix = select.split(",").join(" ");
-      apiData = apiData.select(selectFix);
+   // Apply field selection based on the 'select' query parameter
+   let selectedFields = ["id", "name", "price", "featured", "company" , "createdAt"]; // Default fields
+
+   if (select) {
+      selectedFields = select.split(",").map(field => field.trim());
    }
-// pagination
+
+   // Pagination
    let page = Number(req.query.page) || 1;
    let limit = Number(req.query.limit) || 10;
-   
-/*
-page = 2
-limit = 3
-skip = (2-3) => 1 * 3  = 3 
-so it will skip the first 3 data and show after that 
-*/
-   
-   let skip = (page - 1)* limit;
+   let skip = (page - 1) * limit;
 
-   apiData = apiData.skip(skip).limit(limit) 
+   apiData = apiData.skip(skip).limit(limit);
 
-   apiData.then((products)=>{    
-      res.status(200).json({products , nbHits : products.length});
-   }).catch((err)=>{
-      throw err
-   })
-   
+   apiData.then((products) => {
+      if (format && format.toLowerCase() === 'xml') {
+         // Send response in XML format with selected fields
+         const xmlResponse = `<Api>${products.map(product => {
+
+            const selectedData = selectedFields.map(field => `<${field}>${product[field]}</${field}>`).join('');
+
+            return `<product>${selectedData}</product>`;
+            
+         }).join('')}</Api>`;
+
+         res.set('Content-Type', 'application/xml');
+
+         res.status(200).send(xmlResponse);
+      } else {
+         // Send response in JSON format with selected fields
+         const selectedProducts = products.map(product => {
+
+            const selectedData = {};
+
+            selectedFields.forEach(field => selectedData[field] = product[field]);
+
+            return selectedData;
+         });
+         
+         res.status(200).json({ products: selectedProducts, nbHits: selectedProducts.length });
+      }
+   }).catch((err) => {
+      throw err;
+   });
 }
 
 exports.getAllProductsTesting = async(req,res) =>{
