@@ -37,3 +37,6 @@ This project features a dynamic RestAPI created using Node.js and MongoDB. The A
 5. Start the server: `npm start`
 6. The API will be accessible at `localhost:8000`
 
+## Live Demo
+
+Visit the hosted version [here](https://restapi-production-06bd.up.railway.app/).
