@@ -1,4 +1,4 @@
-# RestAP
+# RestAPI
 
 This project features a dynamic RestAPI created using Node.js and MongoDB. The API makes it easy to retrieve and work with data freely. Users can perform tasks like searching, sorting, selecting and changing data formats.The API runs on localhost:8000 and provides two main routes:
 
