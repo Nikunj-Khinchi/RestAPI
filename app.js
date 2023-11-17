@@ -9,22 +9,6 @@ const products = require("./routes/product");
 
 app.use("/", products);
 
-
-// Body parsing middleware
-app.use(express.json());
-
-
-// Endpoint to handle incoming user data
-app.post('/user-data', (req, res) => {
-  // Access the received data from the request body
-  const userData = req.body;
-  // Process the userData as needed
-  console.log('Received user data:', userData);
-  // Respond with a success message
-  res.status(200).send('User data received successfully');
-});
-
-
 const start = async () => {
   try {
     await mongoDBConnection(URI);
